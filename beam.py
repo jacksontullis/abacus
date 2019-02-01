@@ -58,7 +58,7 @@ def get_max_widths(vals):
 
 def run():
   if len(sys.argv) < 2:
-    print('Usage: xc <num>')
+    print('<hd> <num>')
     sys.exit(1)
   vals = collect_values(sys.argv[1:])
   max_dec, max_hex = get_max_widths(vals)
